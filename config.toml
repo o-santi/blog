@@ -1,0 +1,4 @@
+baseURL = "o-santi.github.io"
+languageCode = "pt-br"
+title = "aforismos devaneicos"
+theme = "introduction"
