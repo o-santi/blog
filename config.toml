@@ -1,4 +1,63 @@
-baseURL = "o-santi.github.io"
-languageCode = "pt-br"
-title = "aforismos devaneicos"
-theme = "introduction"
+baseurl = "o-santi.github.io"
+title = "santi"
+theme = "hugo-coder"
+languagecode = "pt"
+defaultcontentlanguage = "pt"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "santi"
+
+[params]
+  author = "Leonardo Santiago"
+  info = "péssimo exemplo de programador"
+  description = "site pro santi postar merda"
+  keywords = "blog,programação,developer"
+  avatarurl = "images/kunagisa.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "eu ainda não sei porque você está aqui"
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2021
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/o-santi/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/o_santi_/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
