@@ -17,7 +17,7 @@ disqusShortname = "santi"
   info = "péssimo exemplo de programador"
   description = "site pro santi postar merda"
   keywords = "blog,programação,developer"
-  avatarurl = "images/kunagisa.jpg"
+  avatarurl = "/images/kunagisa.jpg"
   #gravatar = "john.doe@example.com"
 
   favicon_32 = "/img/favicon-32x32.png"
