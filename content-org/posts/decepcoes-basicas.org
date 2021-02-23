@@ -17,7 +17,7 @@ ah! que belo o mundo seria se
 
 $$ 77 + 33 = 100$$
 
-mas infelizmente não é o que acontece. vivemos num mundo falho e imperfeito, a vida é arbitrária e sem sentido, não há motivo para sequer procurar estender nossa estadia aqui, tudo é fútil e inóquo e devemos todos cometer suicídio. 
+mas infelizmente não é o que acontece. vivemos num mundo falho e imperfeito, a vida é arbitrária e sem sentido, não há motivo para sequer procurar estender nossa estada aqui, tudo é fútil e inócuo e devemos todos cometer suicídio.
 
 ou será que não acontece?
 
@@ -59,7 +59,7 @@ acalme-se jovem padawan, estamos apenas começando.
 
 * subvertendo a realidade
 
-> quando a verdade doi, ignore-a e crie a sua própria
+> quando a verdade dói, ignore-a e crie a sua própria
 
 provavelmente ninguém nunca disse isso. mas é verdade: quando os fatos não estão a seu favor, apenas os ignore. é simples assim. portanto, definemos aqui a base $b$ tal que
 
@@ -91,9 +91,9 @@ $$ 77_{5 + \sqrt{35}} + 33_{5 + \sqrt{35}} = 100_{5 + \sqrt{35}}$$
 
 * generalizando...
 
-por quê parar com $77 + 33 = 100$? por quê não $777 + 333 = 1000$? ou $7777 + 3333 = 10000$? realmente, não precisamos parar nessas quantidades de dígitos arbitrários, podemos ir *além*. Portanto, seja $B(n)$ a base necessária para que
+por que parar com $77 + 33 = 100$? por quê não $777 + 333 = 1000$? ou $7777 + 3333 = 10000$? realmente, não precisamos parar nessas quantidades de dígitos arbitrários, podemos ir *além*. Portanto, seja $B(n)$ a base necessária para que
 
-$$ 77...7 (n~digitos) + 33...3 (n~digitos) = 10....0(n+1~digitos) $$ 
+$$ 77...7_{B(n)} (n~digitos) + 33...3_{B(n)} (n~digitos) = 10....0_{B(n)}(n+1~digitos) $$ 
 
 sabemos que a fórmula
 
