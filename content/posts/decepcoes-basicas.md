@@ -1,9 +1,9 @@
 +++
 title = "decepções básicas"
 author = ["santi"]
-lastmod = 2021-02-22T00:08:21-03:00
+lastmod = 2021-02-23T09:46:02-03:00
 tags = ["matematica", "bases-numericas"]
-draft = true
+draft = false
 subtitle = "se 77 + 33 fosse 100..."
 katex = true
 +++
@@ -77,7 +77,7 @@ resolvendo um pouco mais,
 
 \\[ 10b^2 - 10 = b^3 - b^2 \\]
 
-\\[ b^3 + 11b^2 - 10 = 0\\]
+\\[ b^3 - 11b^2 + 10 = 0\\]
 
 essa fórmula nos dá, então, três possíveis valores para \\(b\\). um deles é trivial: \\(b=1\\), visto que \\(1 + 11 - 10\\) realmente _é igual_ a 0. entretanto, as outras duas soluções são muito mais interessantes: \\(b = 5 \pm \sqrt{35}\\)
 
@@ -120,6 +120,14 @@ e não respondo para o caso de \\(B(4)\\) em diante pois nem o wolframalpha foi 
 ## adendos finais {#adendos-finais}
 
 alguns podem já ter notado que a base \\(b\\) não funcionará _apenas_ para o caso \\(77\_b + 33\_b = 100\_b\\). de fato, quaisquer dois números que somem para 10 irão funcionar nessa equação, portanto \\(66\_b + 44\_b = 100\_b\\) ou \\(88\_b + 22\_b = 100\_b\\).
+
+outro caso curioso é para \\(B(0)\\): vemos que \\(B(0)^2 - 11 B(0) + 10 = 0\\) tem duas soluções interessantes \\(B(0)\_1 = 1\\) e \\(B(0)\_2 = 10\\). enquanto ainda não sei direito como interpretar o caso onde 1 é o resultado, \\(B(0) = 10\\) nos diz que
+
+\\[ 7 \cdot 10^0 + 3 \cdot 10^0 = 10^1 \\]
+
+ou, simplesmente,
+
+\\[ 7 + 3 = 10\\]
 
 além disso, deixei propositalmente escondido um fato bem importante: as equações possuirão graus cada vez maiores e eu não provei que \\(B(n)\\) será sempre um número real (pois pode muito bem acontecer que todas as soluções de \\(B(n)\\) sejam imaginárias, até então). pois bem, apesar de acreditar que tal fato seja verdadeiro, **eu não sei como provar isso**, e portanto deixo aqui a **conjectura de santi**:
 
